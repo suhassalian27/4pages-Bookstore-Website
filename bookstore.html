@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <title>Bootstrap Sample</title>
+
+        <!-- Bootstrap Core CSS -->
+
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/font-awesome.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Aguafina+Script&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- jQuery Version 1.11.1 -->
+        <script src="js/jquery.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- navbar begin -->
+
+        <nav
+            class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light "
+        >
+            <div class="container">
+                <img src="img/logo.png" class="logo" />
+                <a class="navbar-brand" href="index.html">4pages.com</a>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="index.html">Home</a>
+                        <a
+                            class="nav-item nav-link active"
+                            href="bookstore.html"
+                            >Bookstore</a
+                        >
+                        <a class="nav-item nav-link" href="category.html"
+                            >Category</a
+                        >
+                    </div>
+                </div>
+                <div class="navbar-nav">
+                    <ul class="nav justify-content-end">
+                        <a class="navbar link" href="login.html">
+                            <i class="material-icons">
+                                person
+                            </i>
+                            Log in
+                        </a>
+                        <a class="navbar link" href="signup.html">
+                            <i class="material-icons">
+                                person_add
+                            </i>
+                            Sign up
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar ends -->
+
+        <div class="carousel-inner">
+            <img src="img/s1.jpg" alt="Chicago" class="img" />
+            <div class="centered">
+                <h1 class="slidetext">Bookstore</h1>
+            </div>
+        </div>
+
+        <hr />
+
+        <!-- Books Gallery starts -->
+        <div class=" books">
+            <br />
+            <!-- <h3><p>Popular Books</p></h3> -->
+
+            <!-- row 1 start------------------------------------------------------------------------>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (2).jpg"
+                            class="img-thumbnail"
+                        />
+                        <div class="cover_content">
+                            <p>Lanny</p>
+                            <p class="author">Max Porter</p>
+                            4.3 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹468.88</strike> ₹376.55</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (12).jpg"
+                            class="img-thumbnail"
+                        />
+                        <div class="cover_content">
+                            <p>The Gone Dead</p>
+                            <p class="author">Chanelle Benz</p>
+                            4.1 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹658.88</strike> ₹490.58</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (13).jpg"
+                            class="img-thumbnail"
+                        />
+                        <div class="cover_content">
+                            <p>Three Women</p>
+                            <p class="author">Lisa Taddeo</p>
+                            4.0 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹350.66</strike> ₹320.25</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (20).jpg"
+                            class="img-thumbnail"
+                        />
+                        <div class="cover_content">
+                            <p>The Memory Police</p>
+                            <p class="author">Toko Ogawa</p>
+                            4.2 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹400.56</strike> ₹395.38</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 1 ends------------------------------------------------------------------------>
+            <!-- row 2 start------------------------------------------------------------------------>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (6).jpg"
+                            class="img-thumbnail"
+                        />
+                        <div class="cover_content">
+                            <p>Mostly Dead Things</p>
+                            <p class="author">Kristen Arnett</p>
+                            4.5 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹748.88</strike> ₹685.78</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (11).jpg"
+                            class="img-thumbnail"
+                        />
+                        <div class="cover_content">
+                            <p>To Watch</p>
+                            <p class="author">Emily Nussbaum</p>
+                            <div>
+                                4.7<span class="fa fa-star checked"></span>
+                                <span class="float-right price"
+                                    ><strike>₹860.56</strike> ₹755.89</span
+                                >
+                            </div>
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (4).jpg"
+                            class="img-thumbnail"
+                        />
+                        <div class="cover_content">
+                            <p>Formation</p>
+                            <p class="author">Ryan Leigh Dostie</p>
+                            4.6 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹540.56</strike> ₹505.38</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (10).jpg"
+                            class="img-thumbnail"
+                        />
+                        <div class="cover_content">
+                            <p>How Could She</p>
+                            <p class="author">Lauren Mechling</p>
+                            4.3 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹400.56</strike> ₹395.38</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <!-- row 2 ends------------------------------------------------------------------------>
+            <!-- row 3 start------------------------------------------------------------------------>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (1).jpg"
+                            class="img-thumbnail"
+                        />
+                        <div class="cover_content">
+                            <p>Everthing Inside</p>
+                            <p class="author">Edwidge Danticat</p>
+                            4.8 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹985.85</strike> ₹955.39</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (8).jpg"
+                            class="img-thumbnail"
+                        />
+                        <div class="cover_content">
+                            <p>The Porpoise</p>
+                            <p class="author">Mark Haddon</p>
+                            4.5 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹550.58</strike> ₹510.78</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (9).jpg"
+                            class="img-thumbnail"
+                        />
+                        <div class="cover_content">
+                            <p>The Travelers</p>
+                            <p class="author">Regina Porter</p>
+                            4.2 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹350.66</strike> ₹320.25</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (5).jpg"
+                            class="img-thumbnail"
+                        />
+
+                        <div class="cover_content">
+                            <p>City of Girls</p>
+                            <p class="author">Elizabeth Gilbert</p>
+
+                            4.4 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹665.85</strike> ₹550.60</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- row 3 ends------------------------------------------------------------------------>
+            <!-- row 3 start------------------------------------------------------------------------>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (15).jpg"
+                            class="img-thumbnail"
+                        />
+                        <div class="cover_content">
+                            <p>The Nickel Boys</p>
+                            <p class="author">Colson Whitehead</p>
+                            4.1 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹398.54</strike> ₹385.78</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (16).jpg"
+                            class="img-thumbnail"
+                        />
+                        <div class="cover_content">
+                            <p>Turbulence</p>
+                            <p class="author">David Szalay</p>
+                            4.0 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹550.58</strike> ₹510.78</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (17).jpg"
+                            class="img-thumbnail"
+                        />
+                        <div class="cover_content">
+                            <p>Because Internet</p>
+                            <p class="author">Gretchen McCulloch</p>
+                            3.8 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹465.66</strike> ₹290.55</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail cover">
+                        <img
+                            src="img/cover/cover (21).jpg"
+                            class="img-thumbnail"
+                        />
+
+                        <div class="cover_content">
+                            <p>Inland</p>
+                            <p class="author">Tea Obreht</p>
+
+                            3.8 <span class="fa fa-star checked"></span>
+                            <span class="float-right price"
+                                ><strike>₹462.54</strike> ₹350.80</span
+                            >
+                        </div>
+                        <div class="row buy">
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-info btn-block">
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- row 3 ends------------------------------------------------------------------------>
+        </div>
+
+        <!-- book store ends -->
+        <hr />
+
+        <!-- img slide starts -->
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/ss5.jpg" alt="Chicago" class="img" />
+                <div class="centered">
+                    <h1 class="slidetext">Browse By Catergory</h1>
+                </div>
+            </div>
+        </div>
+        <!-- img slide ends -->
+        <hr />
+
+        <!-- Visit us location starts  -->
+        <div class="visit-bg">
+            <div class="container">
+                <h2>VISIT OUR OFFLINE STORE</h2>
+                <div class="row">
+                    <div class="col-md-3 fimgstyle">
+                        <img
+                            src="img/i1 (1).jpg"
+                            class="img-thumbnail img-circle"
+                        />
+                        <div class="centered "><p class="fimg">MUMBAI</p></div>
+                    </div>
+                    <div class="col-md-3 fimgstyle">
+                        <img
+                            src="img/i1 (2).jpg"
+                            class="img-thumbnail img-circle"
+                        />
+                        <div class="centered ">
+                            <p class="fimg">BANGALORE</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 fimgstyle">
+                        <img
+                            src="img/i1 (3).jpg"
+                            class="img-thumbnail img-circle"
+                        />
+                        <div class="centered "><p class="fimg">GOA</p></div>
+                    </div>
+                    <div class="col-md-3 fimgstyle">
+                        <img
+                            src="img/i1 (4).jpg"
+                            class="img-thumbnail img-circle"
+                        />
+                        <div class="centered ">
+                            <p class="fimg">BANGALORE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+        <br />
+
+        <!-- address/form strtas -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 address">
+                    <h3>VISIT US</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Mumbai City</h6>
+                            <h6>Near TC, 574104</h6>
+                            <h6>Udupi,Karnataka</h6>
+                        </div>
+                        <div class="col-md-6s">
+                            <h6>Bangalore</h6>
+                            <h6>Near TC, 574104</h6>
+                            <h6>Udupi,Karnataka.</h6>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Goa</h6>
+                            <h6>Near TC, 574104</h6>
+                            <h6>Udupi,Karnataka</h6>
+                        </div>
+                        <div class="col-md-6s">
+                            <h6>Delhi</h6>
+                            <h6>Near TC, 574104</h6>
+                            <h6>Udupi,Karnataka.</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h3>Reach Out To Us</h3>
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="First name"
+                                />
+                            </div>
+                            <div class="col">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Location"
+                                />
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col">
+                                <input
+                                    type="Email"
+                                    class="form-control"
+                                    placeholder="Email"
+                                />
+                            </div>
+                            <div class="col">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Phone No."
+                                />
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col">
+                                <input
+                                    type="Email"
+                                    class="form-control"
+                                    placeholder="Message"
+                                />
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col">
+                                <center>
+                                    <button type="button" class="btn btn-dark">
+                                        Submit
+                                    </button>
+                                </center>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- address/form ends -->
+        <!-- copyright starts-->
+        <hr />
+        <div class="copyright">
+            <div class="container">
+                <p class="mt-5 mb-3 text-muted text-center">
+                    Copyright &copy: -2019 All rights Reserved Develped by :
+                    Suhas Salian
+                </p>
+            </div>
+        </div>
+
+        <!-- copyright ends -->
+    </body>
+</html>
