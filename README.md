@@ -1,4 +1,4 @@
-# Fadez Saloon Website
+# 4Pages Book Store
 
 ### [View Live](https://4pages.netlify.app/)
 
